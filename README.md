@@ -19,3 +19,49 @@ Estudio exploratorio, estadístico y visual sobre el desempeño de **26.651 fina
 * `Dataset-Boston-2019.csv`: Base de datos de finalistas utilizada para el estudio.
 * `LICENSE`: Licencia abierta **MIT**[cite: 3].
 * **Herramientas:** Python (`pandas`, `numpy`, `matplotlib`) + HTML5/CSS3/JavaScript embebido.
+
+# 🏃‍♂️ Análisis y Simulador Interactivo — Maratón de Boston 2019
+
+Proyecto de análisis de datos sobre los resultados oficiales del **Maratón de Boston 2019** (`42,195 km`), que incluye un **simulador interactivo de carrera en pista** con animaciones en tiempo real, banderas oficiales de 78 países y comparación de rendimiento por delegación.
+
+---
+
+## 🎮 Probar el Simulador Interactivo en Vivo
+
+> **Nota:** GitHub bloquea por seguridad la ejecución de JavaScript e `<iframe>` dentro de los archivos `.ipynb`. Podés interactuar con el simulador completo desde cualquiera de estos dos enlaces:
+
+* **🚀 Abrir Simulador Web (GitHub Pages):**  
+  👉 **[Hacé clic acá para correr la carrera en vivo](https://TU-USUARIO.github.io/TU-REPOSITORIO/simulador_boston_2019.html)**
+* **📓 Ver Notebook Completo Interactivo (nbviewer):**  
+  👉 **[Abrir Notebook con tablas y pista integrada](https://nbviewer.org/github/TU-USUARIO/TU-REPOSITORIO/blob/main/TU-NOTEBOOK.ipynb)**
+
+### ¿Qué permite hacer el simulador?
+* **Selección libre de 4 carriles:** Elegí tu país principal y 3 países rivales entre todas las delegaciones con al menos 10 finalistas.
+* **Velocidades reales:** Cada corredor avanza según la velocidad promedio real registrada por su país en los 42,195 km.
+* **Controles en tiempo real:** Botones de `▶ PLAY`, `⏸ PAUSA` y `↺ REINICIAR` con reloj cronometrado.
+* **Podio y celebración:** Detección automática del primer puesto (`🥇 ¡GANADOR!`) con iluminación del carril vencedor y fuegos artificiales animados.
+
+---
+
+## 📊 Principales Hallazgos del Dataset
+
+* **Cobertura:** Más de 26.000 corredores finalistas de más de 100 países analizados (`Dataset-Boston-2019.csv`).
+* **Rendimiento por delegación:** Comparación de tiempos promedio, ritmos medios (`min/km`), velocidades (`km/h`), mejores marcas individuales y proporción de atletas élite (`< 2:30:00` en hombres y `< 2:50:00` en mujeres).
+* **Duelos destacados:** Delegaciones europeas y africanas lideran los tiempos promedio más rápidos, mientras que Norteamérica concentra el mayor volumen de participación.
+
+---
+
+## 🛠️ Tecnologías Utilizadas
+
+* **Python 3** (`pandas`, `numpy`) para limpieza, transformación y agregación de métricas atléticas.
+* **HTML5 / CSS3 / JavaScript** embebido mediante `IPython.display` e `<iframe>` (`srcdoc`) para lograr compatibilidad total en entornos **JupyterLite** y navegadores web.
+
+---
+
+## 📁 Estructura del Repositorio
+
+```text
+├── Dataset-Boston-2019.csv       # Dataset original de resultados (separador ';')
+├── simulador_boston_2019.html    # Aplicación web independiente del simulador
+├── maraton_boston_2019.ipynb     # Notebook completo con análisis y código fuente
+└── README.md                     # Documentación del proyecto
