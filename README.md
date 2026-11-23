@@ -1,4 +1,3 @@
-# An-lisis-Runners-
 Análisis estadístico y simuladores interactivos de rendimiento en el Maratón de Boston
 # Análisis Comparativo de Rendimiento: Maratón de Boston (Élite vs. Aficionados)
 
