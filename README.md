@@ -23,3 +23,6 @@ Estudio exploratorio, estadístico y visual sobre el desempeño de **26.651 fina
 
 * **Python 3** (`pandas`, `numpy`) para limpieza, transformación y agregación de métricas atléticas.
 * **HTML5 / CSS3 / JavaScript** embebido mediante `IPython.display` e `<iframe>` (`srcdoc`) para lograr compatibilidad total en entornos **JupyterLite** y navegadores web.
+
+[![Ver Web Interactiva](https://img.shields.io/badge/Ver_Web_Interactiva-nbviewer-orange?style=for-the-badge&logo=jupyter)](https://nbviewer.org/github/ivandieguez/Analisis-Runners/blob/main/Runners.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ivandieguez/Analisis-Runners/blob/main/Runners.ipynb)
